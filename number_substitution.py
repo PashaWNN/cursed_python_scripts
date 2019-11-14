@@ -23,4 +23,4 @@ int42.ob_digit = 80
 # IDK why it's 52, but in interactive mode it will be 90
 # You can try import this file in interactive mode and type "42 + 10"
 
-#print("42 == 80 =", 42 == 80)
+print("42 == 80 =", 42 == 80)

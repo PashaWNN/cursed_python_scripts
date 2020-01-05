@@ -26,3 +26,24 @@ cout << "Hello, world!" << endl;
 
 The correct answer is **YES**! See `stdout.py`
 
+
+## Decorator
+
+`decorator.py` is not cursed nor funny. There is decorator that transform functions into int
+
+It just demonstrates that decorator is just a function with syntax sugar and
+
+```python
+@deco
+def foo():
+  ...
+```
+
+equals to
+
+```python
+def foo():
+  ...
+
+foo = deco(foo)
+```
